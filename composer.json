@@ -17,9 +17,11 @@
         "botman/tinker": "~1.0",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "^1.0",
+        "botman/driver-telegram": "1.6.2"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-latest",
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "~2.0",
         "fzaninotto/faker": "~1.4",
