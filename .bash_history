@@ -99,3 +99,36 @@ yarn upgrade
 yarn add node-gyp
 yarn install
 yarn install
+php artisan cache:clear
+php artisan cache:clear
+php artisan confic:cache
+php artisan config:cache
+php artisan cache:clear
+php artisan cache:clear
+php artisan cache:clear
+clear
+git status
+git add .
+git commit -m 'add files'
+git push
+git push
+git push
+git remote set-url origin https://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@github.com/frtn7/picrandom-bot.git
+git remote -v
+git pull https://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@github.com/frtn7/picrandom-bot.git
+git push
+git add .
+git commit -m 'delete unused files'
+git push
+git status
+php artisan botman:telegram:register
+git add .
+git commit -m 'gitignore change'
+git push
+git config --global --edit
+git config --global --edit
+git config --global --edit
+git add .
+git commit -m 'cache clear'
+git push
+git pull
