@@ -132,3 +132,9 @@ git add .
 git commit -m 'cache clear'
 git push
 git pull
+git remote -v
+git status
+git add .
+git commit -m 'new domain'
+git push
+git config --global --edit 
