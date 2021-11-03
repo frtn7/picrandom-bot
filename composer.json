@@ -23,7 +23,8 @@
         "ext-json": "*",
         "guzzlehttp/guzzle": "7.4.0",
         "symfony/dom-crawler": "v5.3.7",
-        "buchin/google-image-grabber": "*"
+        "buchin/google-image-grabber": "*",
+        "ext-gd": "*"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

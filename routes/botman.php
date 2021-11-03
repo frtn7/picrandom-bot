@@ -13,17 +13,17 @@ $botman = resolve('botman');
 $botman->hears('/pic {keyword}', function ($bot, $keyword) {
     $images = GoogleImageGrabber::grab($keyword);
     $rand_index = rand(0, count($images));
+    $pic_content = file_get_contents($images[$rand_index]['url']);
     $bot->reply('Your pic is here:');
-    $bot->reply($images[$rand_index]['url']);
+    $bot->reply(imagecreatefromstring($pic_content));
 });
 
 //$keyword = 'dog';
-//
 //$images = GoogleImageGrabber::grab($keyword);
-//
 //$rand_index = rand(0, count($images));
+//$pic_content = file_get_contents($images[$rand_index]['url']);
 //
 //echo '<pre>';
 //print_r($images[$rand_index]['url']);
-//print_r($images);
+//print_r($pic_content);
 //echo '</pre>';
