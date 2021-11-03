@@ -1,6 +1,6 @@
 {
-    "name": "botman/studio",
-    "description": "BotMan Chatbot framework.",
+    "name": "frtn7/picrandom-bot",
+    "description": "TG Picrandom Bot",
     "keywords": [
         "botman",
         "chatbot",
@@ -18,10 +18,14 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "botman/driver-telegram": "1.6.2"
+        "botman/driver-telegram": "1.6.2",
+        "curl/curl": "2.3.2",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "7.4.0",
+        "symfony/dom-crawler": "v5.3.7",
+        "buchin/google-image-grabber": "*"
     },
     "require-dev": {
-        "roave/security-advisories": "dev-latest",
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "~2.0",
         "fzaninotto/faker": "~1.4",
