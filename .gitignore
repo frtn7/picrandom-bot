@@ -13,3 +13,4 @@ npm-debug.log
 /.cache
 /.local
 .bash_history
+.composer
